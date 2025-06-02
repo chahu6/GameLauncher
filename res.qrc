@@ -1,3 +1,12 @@
 <RCC>
-    <qresource prefix="/"/>
+    <qresource prefix="/">
+        <file>resource/image/logo.ico</file>
+        <file>resource/image/close.png</file>
+        <file>resource/image/minium.png</file>
+        <file>resource/image/service.png</file>
+        <file>resource/image/setting.png</file>
+        <file>resource/image/background.jpg</file>
+        <file>resource/image/arrowLeft .png</file>
+        <file>resource/image/arrowRight.png</file>
+    </qresource>
 </RCC>

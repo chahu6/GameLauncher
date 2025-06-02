@@ -30,3 +30,5 @@ RESOURCES += \
 
 include(Utils/Utils.pri)
 include(3rdparty/3rdparty.pri)
+include(View/View.pri)
+include(Downloader/Downloader.pri)
