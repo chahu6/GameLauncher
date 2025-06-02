@@ -4,7 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 
-RC_ICONS = logo.ico # 配置桌面软件和的图标
+RC_ICONS = logo.ico # 閰嶇疆妗岄潰杞欢鍜岀殑鍥炬爣
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -27,3 +27,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+
+include(Utils/Utils.pri)
+include(3rdparty/3rdparty.pri)
