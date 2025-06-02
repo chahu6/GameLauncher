@@ -34,7 +34,7 @@
           <widget class="Carousel" name="widget_2" native="true"/>
          </item>
          <item>
-          <widget class="QWidget" name="widget_3" native="true"/>
+          <widget class="Bulletin" name="widget_3" native="true"/>
          </item>
         </layout>
        </widget>
@@ -68,6 +68,12 @@
    <class>Carousel</class>
    <extends>QWidget</extends>
    <header location="global">carousel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Bulletin</class>
+   <extends>QWidget</extends>
+   <header location="global">bulletin.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

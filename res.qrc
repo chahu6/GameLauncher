@@ -8,5 +8,8 @@
         <file>resource/image/background.jpg</file>
         <file>resource/image/arrowLeft .png</file>
         <file>resource/image/arrowRight.png</file>
+        <file>resource/image/bg1.jpg</file>
+        <file>resource/image/bg2.jpg</file>
+        <file>resource/image/bg3.jpg</file>
     </qresource>
 </RCC>
