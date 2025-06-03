@@ -45,6 +45,10 @@ Carousel::Carousel(QWidget *parent)
     imgArr.append(QImage(":/resource/image/bg2.jpg"));
     imgArr.append(QImage(":/resource/image/bg3.jpg"));
 
+    urls.append("https://infinitynikki.nuanpaper.com/news/324");
+    urls.append("https://infinitynikki.nuanpaper.com/news/332");
+    urls.append("https://infinitynikki.nuanpaper.com/news/341");
+
     // 轮播图效果
     animation = new QPropertyAnimation(this, "offset");
     animation->setStartValue(0.f);
@@ -117,6 +121,7 @@ void Carousel::leaveEvent(QEvent *event)
     ui->btnRight->hide();
 }
 
+// 打开链接
 void Carousel::mousePressEvent(QMouseEvent *event)
 {
     if(urls.empty()) return;
